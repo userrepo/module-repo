@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>module.one</groupId>
   <artifactId>module-one</artifactId>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>module-one</name>
   <url>http://maven.apache.org</url>
