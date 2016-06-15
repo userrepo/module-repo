@@ -36,6 +36,15 @@
                 	<groupId>org.jboss.as.plugins</groupId>
                 	<artifactId>jboss-as-maven-plugin</artifactId>
                 	<version>7.8.Final</version>
+                	
+                	 <executions>
+                    <execution>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>deploy</goal>
+                        </goals>
+                    </execution>
+                </executions>
                 </plugin>
                 
                 <plugin>
